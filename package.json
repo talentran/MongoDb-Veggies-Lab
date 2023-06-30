@@ -1,0 +1,15 @@
+{
+  "name": "mongodb-veggies-lab",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run dev\"",
+    "install": "cd backend && npm i && cd .. && cd frontend && npm i && cd .."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
